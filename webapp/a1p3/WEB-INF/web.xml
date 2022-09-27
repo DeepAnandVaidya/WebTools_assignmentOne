@@ -1,0 +1,16 @@
+<web-app>
+	<servlet>
+		<servlet-name>partthree</servlet-name>
+		<servlet-class>PartThree</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>partthree</servlet-name>
+		<url-pattern>/p3</url-pattern>
+	</servlet-mapping>
+	
+	<welcome-file-list>
+		<servlet-name>partfive</servlet-name>
+		<welcome-file>partThree.html</welcome-file>
+	</welcome-file-list>
+</web-app>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="partFour.css">
+</head>
+<body>
+  <div>
+    <img src="FormLogo.png" class="logo-image">
+    <h1 class="main-heading">Tuition Waiver Form</h1>
+    <div class="header-note-div">
+      <p class="note-content">This form is used by part-time faculty, part-time staff, retirees, their spouses or domestic partners and their dependents.
+        All full-time faculty and staff should use the online Tuition Waiver Form found on myNEU. Before completing this form,
+        please refer to the Tuition Waiver Program Guidelines. Be sure to include a Dependent Certification Form along with
+        the submission of this form for any dependent children.</p>
+    </div>
+  </div>
+
+  <!-- SECTION ONE -->
+  <div class="section-one-div">
+    <h2 class="section-one-heading">Section 1</h2>
+    <form class="section-one-form" action="p4" method="POST">
+      <label>Academic Term: </label>
+      <input type="text" name="academic-term"/>
+
+      <label>Academic Year: </label>
+      <input type="text" name="academic-year"/>
+
+      <p class="radio-main-label">Employee Status: </p>
+      <div class="radio-div">
+        <!-- <div class="radio-sub-div-1"> -->
+          <input type="radio" name="emp-status" value="P/T Staff"/>
+        <!-- </div> -->
+        <label>P/T Staff</label>
+        <div class="radio-sub-div">
+          <input type="radio" name="emp-status" value="P/T Faculty"/>
+          <label>P/T Faculty</label>
+          <input type="radio" name="emp-status" value="Retiree"/>
+          <label>Retiree</label>
+          <input type="radio" name="emp-status" value="Other"/>
+          <label>Other</label>
+        </div>
+      </div>
+    <!-- </form> -->
+    <p class="section-one-header">*Terms with multiple sessions are considered one academic term for tuition waiver purposes e.g., summer sessions I and
+      II are considered one academic term.</p>
+  </div>
+
+  <!-- SECTION TWO -->
+  <div class="section-one-div">
+    <h2 class="section-one-heading">Section 2</h2>
+
+    <!-- <form> -->
+      <div class="section-two-form-div">
+        <div class="section-two-sub">
+          <label>Student's Name</label>
+          <input type="text" name="student-name">
+          <label>Relationship to Employee</label>
+          <input type="text" name="employee-rel">
+          <label>Student's NUID</label>
+          <input type="text" name="nuid">
+        </div>
+        <div class="section-two-sub">
+          <label>Employee's Name (if different from Student's)</label>
+          <input type="text" name="employee-name">
+          <label>Employee's NUID</label>
+          <input type="text" name="employee-nuid">
+        </div>
+        <div class="section-two-sub">
+          <label>Department</label>
+          <input type="text" name="department">
+          <label>Campus Location</label>
+          <input type="text" name="location">
+          <label>Phone Number</label>
+          <input type="text" name="phone-no">
+          <label>Supervisor's Name</label>
+          <input type="text" name="supervisor-name">
+        </div>
+      </div>
+    <!-- </form> -->
+  </div>
+
+  <!-- SECTION THREE -->
+  <div class="section-one-div">
+    <h2 class="section-one-heading">Section 3&nbsp;&nbsp;&nbsp;<span class="heading-note">Indicate the applicable school or program:</span></h2>
+    <!-- <form class="section-three-form"> -->
+      <div class="section-three-sub">
+        <input type="radio" name="program" value="Undergraduate Program">
+        <label>Undergraduate Program</label>
+        <input type="radio" name="program" value="Law School (excludes employees)">
+        <label>Law School (excludes employees)</label>
+        <input type="radio" name="program" value="Doctoral Candidate">
+        <label>Doctoral Candidate</label>
+      </div>
+      <div>
+        <input type="radio" name="program" value="College of Professional Studies (CPS) Undergraduate">
+        <label>College of Professional Studies (CPS) Undergraduate</label>
+        <input type="radio" name="program" value="Graduate School">
+        <label>Graduate School</label>
+        <input type="radio" name="program" value="CPS Graduate School">
+        <label>CPS Graduate School</label>
+      </div>
+      <p class="section-three-header">One course per academic term may be taken one-half hour before the end of your workday. If this applies to you, this
+        form must be signed by your supervisor below and approved by Human Resources Management.</p>
+      <p class="section-three-header">Complete the following course information. If you are an employee taking a job related course, please attach the Job
+        Related Designation Form to this waiver.</p>
+
+      <p class="course-form-header">Course No.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Course Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Supervisor Signature&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Credit Hrs.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Day(s)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Time</p>
+      <div class="course-form-div">
+        <input type="text" class="course-number" name="course-num-one">
+        <input type="text" class="course-name" name="course-name-one">
+        <input type="text" class="supervisor-sign" name="supervisor-sign-one">
+        <input type="text" class="credit-hours" name="credit-hours-one">
+        <input type="text" class="days" name="days-one">
+        <input type="text" class="time" name="time-one">
+        <p class="time-format">a.m./p.m.</p>
+      </div>
+      <div class="course-form-div">
+        <input type="text" class="course-number" name="course-num-two">
+        <input type="text" class="course-name" name="course-name-two">
+        <input type="text" class="supervisor-sign" name="supervisor-sign-two">
+        <input type="text" class="credit-hours" name="credit-hours-two">
+        <input type="text" class="days" name="days-two">
+        <input type="text" class="time" name="time-two">
+        <p class="time-format-2">a.m./p.m.</p>
+      </div>
+      <div class="course-form-div">
+        <input type="text" class="course-number" name="course-num-three">
+        <input type="text" class="course-name" name="course-name-three">
+        <input type="text" class="supervisor-sign" name="supervisor-sign-three">
+        <input type="text" class="credit-hours" name="credit-hours-three">
+        <input type="text" class="days" name="days-three">
+        <input type="text" class="time" name="time-three">
+        <p class="time-format-3">a.m./p.m.</p>
+      </div>
+    <!-- </form> -->
+  </div>
+
+  <!-- SECTION FOUR -->
+  <div class="section-one-div">
+    <h2 class="section-one-heading">Section 4</h2>
+    <p class="section-one-header" style="margin-top: 3px;">In accordance with Northeastern University's Tuition Waiver Program Guidelines, my signature attests that I am
+      currently enrolled in the above courses, or that the student listed above is my spouse, domestic partner or
+      unmarried dependent child or the dependent child of my domestic partner as defined under current IRS tax
+      regulations. I also certify that I have read the Tuition Waiver Program Guidelines.</p>
+      
+      <!-- <form> -->
+        <label>Employee's Signature</label>
+        <input type="text" style="margin-right:200px; margin-top:20px" name="emp-sign">
+        <label>Date</label>
+        <input type="text" name="date">
+      <!-- </form> -->
+  </div>
+
+  <!-- SECTION FIVE -->
+  <div class="section-one-div">
+    <h2 class="section-one-heading">Section 5</h2>
+    <!-- <form> -->
+      <label>HRM Approval</label>
+      <input type="text" style="margin-right:200px; margin-top:20px" name="hrm-approval">
+      <label>Date</label>
+      <input type="text" name="sec-five-date">
+      <input type="submit">
+    </form>
+    <p class="section-three-header">Forms will be reviewed for completeness and eligibility. You will be notified if any additional information is needed. Mail completed form to
+      <span style="font-weight: bold;">Human Resources, 250 Columbus Place</span> or <span style="font-weight: bold;">fax to (617) 373-7610</span>. All waivers must be received by HRM within 30 days
+      of the course start date.</p>
+  </div>
+</body>
+
+</html>

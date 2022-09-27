@@ -1,0 +1,173 @@
+.main-heading {
+    float: right;
+    margin: 20px;
+    margin-top: 60px;
+    font-family: sans-serif;
+    margin-right: 320px;
+}
+
+.logo-image {
+    margin: 20px;
+    width: 358px;
+    margin-left: 307px;
+}
+
+.note-content {
+    margin: auto;
+    border: 1px solid black;
+    padding: 10px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    width: 843px;
+}
+
+.section-one-div {
+    margin-left: 317px;
+}
+
+.section-one-heading {
+    font-family: sans-serif;
+    color: #d80101;
+}
+
+label {
+    font-family: sans-serif;
+    color: #414141;
+}
+
+input[type="text"] {
+    border: none;
+    border-bottom: 1px solid #414141;
+    margin-right: 70px;
+}
+
+.radio-div {
+    position: relative;
+    float: right;
+    left: -46px;
+    top: 4px;
+    font-size: 13px;
+}
+
+.radio-sub-div {
+    position: relative;
+    left: -135px;
+    font-size: 13px;
+}
+
+.radio-main-label {
+    color: #414141;
+    font-family: sans-serif;
+    float: right;
+    position: relative;
+    left:-392px;
+    top: -13px;
+}
+
+.section-one-header {
+    /* margin: auto; */
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    margin-top: 50px;
+    width: 843px;
+}
+
+.section-two-sub {
+    margin-bottom: 50px;
+}
+
+.section-two-sub > input {
+    margin-right: 10px;
+    width: 95px;
+}
+
+.heading-note {
+    font-family: sans-serif;
+    font-style: italic;
+    color: #02225e;
+}
+
+.section-three-sub {
+    margin-bottom: 25px;
+}
+
+.section-three-header {
+    font-family: sans-serif;
+    color: #02225e;
+    border: 1px solid #dbd7d3;
+    background-color: #dbd7d3;
+    width: 843px;
+    padding: 10px;
+}
+
+.course-form-header {
+    color: #414141;
+    font-family: sans-serif;
+}
+
+.course-number {
+    width: 95px;
+}
+
+.course-name {
+    width: 115px;
+    position: relative;
+    left: -38px;
+}
+
+.supervisor-sign {
+    width: 169px;
+    position: relative;
+    left: -77px;
+}
+
+.credit-hours {
+    width: 75px;
+    position: relative;
+    left: -124px;
+}
+
+.days {
+    width: 75px;
+    position: relative;
+    left: -147px;
+}
+
+.time {
+    width: 75px;
+    position: relative;
+    left: -197px;
+}
+
+.time-format {
+    color: #414141;
+    font-family: sans-serif;
+    float: right;
+    position: relative;
+    left: -313px;
+    top: -11px;
+}
+
+.time-format-2 {
+    color: #414141;
+    font-family: sans-serif;
+    float: right;
+    position: relative;
+    left: -313px;
+    top: -31px;
+}
+
+.time-format-3 {
+    color: #414141;
+    font-family: sans-serif;
+    float: right;
+    position: relative;
+    left: -246px;
+    top: -33px;
+}
+
+.course-form-div {
+    margin-bottom: 15px;
+}

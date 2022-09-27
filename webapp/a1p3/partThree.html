@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Form</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="partThree.css">
+</head>
+<body>
+    <div class="form-container">
+      <form action="p3" method="POST">
+          <div class="block">
+            <label for="email">E-mail:</label>
+            <input type="email" name="email">
+          </div>
+          <br>
+          <div class="block">
+            <label for="password">Password:</label>
+            <input type="password" name="password">
+          </div>
+          <br>
+          <div class="block">
+            <label for="cpassword">Confirm Password:</label>
+            <input type="password" name="cpassword">
+          </div>
+          <br>
+          <div class="block">
+            <label style="position: relative; left:40px;">Upload Your Picture:</label>
+            <input type="file" action="profileimage" style="position: relative; left:40px;" name="image-file"/>
+          </div>
+          <br>
+          <div class="block">
+            <div style="position: relative;left:27px;">
+              <label for="gender" style="position: relative; left:-36px; width: 20px;">Gender:</label>
+              <input type="radio" name="gender" value="Male" style="position: relative;">
+              <label for="male" style="position: relative; width: 20px;">Male</label>
+              <input type="radio" name="gender" value="Female" name="gender" value="Male" style="position: relative; left:20px;">
+              <label for="female" style="position: relative; left: 20px; width: 20px;">Female</label> 
+            </div>
+          </div>
+          <br>
+          <div class="block country-div">
+            <label for="country">Select Country:</label>
+            <select name="country">
+              <option value="UNITED KINGDOM">United Kingdom</option>
+              <option value="UNITED STATES">United States</option>
+              <option value="INDIA">India</option>
+              <option value="CANADA">Canada</option>
+            </select>
+          </div>
+          <br>
+          <div class="block" style="position:relative; left: -35px">
+            <label for="hobby">Hobby:</label>
+            <input type="checkbox"  name="hobby" value="Cricket">
+            <label for="reading" style="width: 20px;">Cricket</label>
+            <input type="checkbox"  name="hobby" value="Football" style="position:relative; left: 30px;">
+            <label for="dancing" style="width: 20px;position:relative; left: 30px;">Football</label>
+          </div>
+          <br>
+          <div class="block">
+            <label for="address">Address:</label>
+            <input type="text" name="address" maxlength="30">
+          </div>
+          <br>
+          <input type="submit" value="SUBMIT" class="submit-button">
+      </form>
+    </div>
+</body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="partThree.css">
+</head>
+<body>
+  <div class="form-div">
+  <form action="p3" method="POST">
+    <label>Email:</label><input type="text" name="email"/>
+    <label>Password:</label><input type="password" name="password"/>
+    <label>Confirm Password:</label><input type="password" name="confirm-password"/>
+    <label>Upload Your Picture:</label><input type="file" action="profileimage"/>
+    <label class="gender-label">Gender:</label>
+     <div><input type="radio" name="male"/><label>Male</label><input type="radio" name="female"/><label>Female</label></div>
+    <select name="country">
+      <option value="UNITED KINGDOM">United Kingdom</option>
+      <option value="UNITED STATES">United States</option>
+      <option value="INDIA">India</option>
+      <option value="CANADA">Canada</option>
+    </select>
+    <label>Hobby:</label><input type="checkbox" name="cricket"/><label>Cricket</label><input type="checkbox" name="football"/>
+    <label>Address:</label><input type="text" name="address" style="height: 100px;"/>
+    <input type="submit" class="submit-button"/>
+</form>	
+</div>
+</body> -->

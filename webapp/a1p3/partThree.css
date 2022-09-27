@@ -1,0 +1,124 @@
+html {
+    background-color: #ffcc01;
+}
+
+.form-container {
+    border: 1px solid #FFFFFF;
+    padding: 30px;
+    width: 428px;
+    height: 400px;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    box-shadow: 6px 6px 29px -4px rgba(0, 0, 0, 0.75);
+    font-family: sans-serif;
+    font-size: 15px;
+    background-color: #FFFFFF;
+}
+
+label{
+    display: inline-block;
+    width: 140px;
+    text-align: right;
+}
+
+form {
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.country-div {
+    position: relative;
+    left: -23px;
+}
+
+.submit-button {
+    margin-top: 10px;
+    position: relative;
+    left: 20px;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    background-color: green;
+    border-radius: 10px;
+    border: green;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: #FFFFFF;
+    transition: 0.4s;
+}
+
+.submit-button:hover {
+    background-color: #045404;
+}
+
+
+/* body {
+    background-color: #ffd500;
+}
+
+.form-div {
+    background-color: #ffffff;
+    border: 1px solid #e9e6e6;
+    padding: 30px;
+    width: 528px;
+    height: 500px; 
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 6px 6px 29px -4px rgba(0, 0, 0, 0.75);
+}
+
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
+    position: relative;
+    top: 17px;
+    left: -30px;
+}
+input[type='text'],
+input[type='password']
+{
+  display: inline-block;
+  float: left;
+  margin: 10px;
+  font-family: sans-serif;
+  width: 200px;
+  border: 1px solid #8ed3f8;
+  border-radius: 5px;
+  height: 30px;
+}
+
+input[type='file']
+{
+    position: relative;
+    top: 17px;
+    left: 10px;
+}
+
+
+.submit-button {
+    border-radius: 5px;
+    background-color: green;
+    color: #FFFFFF;
+    position: relative;
+    left: -55px;
+    top: 232px;
+    border: none;
+    height: 40px;
+    cursor: pointer;
+    transition: 0.4s;
+    width: 127px;
+}
+
+.submit-button:hover {
+    background-color: #014d01;
+}
+
+.gender-label {
+    position: relative;
+    top: 46px;
+} */

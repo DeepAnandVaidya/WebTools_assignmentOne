@@ -1,0 +1,12 @@
+<web-app>
+	<servlet>
+		<servlet-name>parttwo</servlet-name>
+		<servlet-class>PartTwo</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>parttwo</servlet-name>
+		<url-pattern>/p2</url-pattern>
+	</servlet-mapping>
+	
+</web-app>
